@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+body{
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.page1{
+    background: rgba(0,0,0, 0.5) url('../images/netflix.jpg');
+    
+    background-blend-mode: darken;
+    color: antiquewhite;
+    height: 32rem;
+    background-size: cover;
+}
+
+.logoAndSignUpButton{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+
+.logo img{
+    width: 7rem;
+    height: 3.2rem;
+    margin-left:1.52rem;
+    padding-top: 1rem;
+}
+
+.logoAndSignUpButton button{
+    background-color: rgb(229, 9, 20);
+    width: 20rem;
+    height: 2.2rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.p1content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.p1content h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.p1content p{
+    line-height:1.8rem;
+    font-size: 1.2rem; 
+    margin-bottom: 1rem;
+}
+
+.p1content .paragraph2{
+    text-align: center;
+    width: 15rem;
+    line-height:1.6rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    background-color: rgba(0,0,0, 0.5);
+    width: 18rem;
+    height: 3rem;
+    font-size: 1rem;
+    color:  rgba(255, 255, 255, 0.7); 
+    padding-left: 1rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.p1content button {
+    width: 12rem;
+    background-color: rgb(229, 9, 20);
+    height: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.page2, .page3, .page5{
+    height: 33rem;
+    background-color: black;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lineBreak{
+    
+    border: 0.3rem solid rgba(0,0,0, 0.9);
+}
+
+.page2 h1, .page3 h1, .page4 h1, .page5 h1{
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+
+.p2content, .p3content, .p4content, .p5content, .page6content{
+    padding-top: 1rem;
+    text-align: center;
+    line-height:1.6rem;
+    font-size: 1.3rem; 
+    font-weight: 500;
+}
+
+.page2 .image1{
+    background-image: url('../images/netflix-tv.png');
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+}
+
+
+.page3 .image2{
+    background-image: url('../images/netflix-mobile-image.jpg');
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+}
+
+.page4{
+  
+    height: 20rem;
+    background-color: black;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;  
+}
+
+ .image{
+    height: 20rem;
+    width: 100%;
+    background: url('../images/netflix-kids.png');
+    background-size: cover;
+}
+
+.page6{
+    height: 80rem;
+    background-color: black;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page6 h1{
+    text-align: center;
+    /* padding-top: 2rem; */
+}
+
+.page6 .accordion{
+
+   gap: 2rem;
+   height: 3rem;
+   border-radius: none;
+   width: 21rem;
+   background-color: rgba(98, 94, 94, 0.4) ;
+   margin-top: 1rem;
+   font-size: 1.5rem;
+   padding: 2rem 0rem 0rem 2rem;
+}
+
+.page6content{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 18rem;
+    font-size: 1.4rem;
+}
