@@ -7,6 +7,7 @@
 
 body {
   font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  
 }
 
 .container {
@@ -138,18 +139,33 @@ input {
   margin: 1rem 0 0;
 }
 
+.page2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .page2 .image1 {
-  background-size: cover;
   height: 18rem;
   width: 100%;
   margin: 0 auto;
 }
+
+/* .image-image > img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
 
 .image1 img {
   height: auto;
   width: 100%;
   position: absolute;
   z-index: 1;
+  overflow-clip-margin: content-box;
+
 }
 
 .vid {
@@ -165,12 +181,10 @@ input {
 }
 
 .page3 .image2 {
-  /* background-image: url('../images/netflix-mobile-image.jpg'); */
-  /* background-size: cover; */
+
   height: 100%;
   width: 100%;
-  /* z-index: 12;
-    position: relative; */
+
 }
 
 .image2 img {
@@ -193,6 +207,8 @@ input {
   border-radius: 0.75rem;
   margin-top: 12rem;
   background: black;
+  display: flex;
+  flex-direction: row;
 }
 
 .boxShot img {
@@ -206,6 +222,35 @@ input {
   align-self: center;
 }
 
+.movie-status{
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
+.movie-title{
+  font-weight: 0.875rem;
+  color: white;
+  font-weight: 500;
+}
+
+.movie-status .download-status{
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #0071eb;
+}
+
+.download-image{
+width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    display: block;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    background: url('../images//download-icon.gif') center no-repeat;
+    background-size: 100%;
+    border-radius: none;
+}
+
 .page4 {
   height: 20rem;
   background-color: black;
@@ -215,11 +260,13 @@ input {
 }
 
 .image {
+  height: 100%;
+  width: 100%;
+}
+
+.image > img{
   height: 20rem;
   width: 100%;
-  background: url("../images/netflix-kids.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .page6 {
